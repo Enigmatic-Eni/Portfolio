@@ -9,37 +9,37 @@ const techCategories = [
     techs: [
       {
         name: "React.js",
-        logo: "../src/assets/react.png",
+        logo: "/assets/react.png",
         desc: "Building dynamic, component-based user interfaces"
       },
       {
         name: "Nextjs",
-        logo: "../src/assets/nextjs.png",
+        logo: "/assets/nextjs.png",
         desc: "Server-side rendering and optimized web apps"
       },
       {
         name: "TypeScript",
-        logo: "../src/assets/typescript.png",
+        logo: "/assets/typescript.png",
         desc: "Type-safe JavaScript for scalable applications"
       },
       {
         name: "Tailwind CSS",
-        logo: "../src/assets/tailwind.png",
+        logo: "/assets/tailwind.png",
         desc: "Utility-first CSS for rapid UI development"
       },
       {
         name: "Javascript",
-        logo: "../src/assets/javascript.png",
+        logo: "/assets/javascript.png",
         desc: "Modern ES6+ Javascript development"
       },
       {
         name: "HTML 5",
-        logo: "../src/assets/html.png",
+        logo: "/assets/html.png",
         desc: "Semantic and accessible markup"
       },
        {
         name: "CSS3",
-        logo: "../src/assets/css3.png",
+        logo: "/assets/css3.png",
         desc: "Advanced styling and animations"
       },
     ]
@@ -50,17 +50,17 @@ const techCategories = [
     techs: [
       {
         name: "Node.js",
-        logo: "../src/assets/nodejs.png",
+        logo: "/assets/nodejs.png",
         desc: "JavaScript runtime for building backend services"
       },
       {
         name: "Express.js",
-        logo: "../src/assets/expressjs.png",
+        logo: "/assets/expressjs.png",
         desc: "Minimal framework for building REST APIs"
       },
       {
         name: "REST APIs",
-        logo: "../src/assets/rest.png",
+        logo: "/assets/rest.png",
         desc: "Designing and integrating scalable APIs"
       }
     ]
@@ -71,7 +71,7 @@ const techCategories = [
     techs: [
       {
         name: "MongoDB",
-        logo: "../src/assets/mongo.png",
+        logo: "/assets/mongo.png",
         desc: "NoSQL database for flexible data storage"
       },
      
@@ -83,17 +83,17 @@ const techCategories = [
     techs: [
       {
         name: "Linux",
-        logo: "../src/assets/linux.png",
+        logo: "/assets/linux.png",
         desc: "Server environment and system operations"
       },
       {
         name: "Git",
-        logo: "../src/assets/git.png",
+        logo: "/assets/git.png",
         desc: "Version control and collaboration"
       },
       {
         name: "CI/CD",
-        logo: "../src/assets/cicd.png",
+        logo: "/assets/cicd.png",
         desc: "Automated testing and deployment pipelines"
       }
     ]
@@ -104,12 +104,12 @@ const techCategories = [
     techs: [
       {
         name: "GitHub",
-        logo: "../src/assets/github.png",
+        logo: "/assets/github.png",
         desc: "Code hosting and collaboration"
       },
       {
         name: "Postman",
-        logo: "../src/assets/postman.png",
+        logo: "/assets/postman.png",
         desc: "API testing and debugging"
       },
     ]
