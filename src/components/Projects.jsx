@@ -36,14 +36,14 @@ export default function Projects() {
   const [active, setActive] = useState(projects[0]);
 
   return (
-    <section id="Projects" className="py-32 px-6 bg-gradient-to-b from-black to-black/60 text-white">
+    <section id="Projects" className="py-32 px-6 bg-linear-to-b from-black to-black/60 text-white">
       
       {/* HEADER */}
       <div className="max-w-6xl mx-auto text-center mb-20">
-        <h2 className="text-5xl md:text-6xl font-black mb-6 bg-gradient-to-r from-purple-400 to-purple-500 bg-clip-text text-transparent">
+        <h2 className="text-5xl md:text-6xl font-black mb-6 bg-linear-to-r from-purple-400 to-purple-500 bg-clip-text text-transparent">
           Featured Projects
         </h2>
-        <div className="w-24 h-1 bg-gradient-to-r from-purple-500 to-purple-400 mx-auto rounded-full mb-8" />
+        <div className="w-24 h-1 bg-linear-to-r from-purple-500 to-purple-400 mx-auto rounded-full mb-8" />
         <p className="text-xl max-w-2xl mx-auto leading-relaxed text-gray-300">
           A selection of projects I’ve built, showcasing my experience in
           frontend development, backend systems, and scalable web applications.
@@ -73,7 +73,7 @@ export default function Projects() {
         </div>
 
         {/* RIGHT - DISPLAY */}
-        <div className="relative min-h-[450px]">
+        <div className="relative min-h-112.5">
           <AnimatePresence mode="wait">
             <motion.div
               key={active.id}
@@ -145,7 +145,7 @@ export default function Projects() {
           href="https://github.com/Enigmatic-Eni"
           target="_blank"
           rel="noopener noreferrer"
-          className="group flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 rounded-2xl font-semibold shadow-2xl shadow-purple-500/40 hover:shadow-purple-500/70 transition-all"
+          className="group flex items-center gap-3 px-8 py-4 bg-linear-to-r from-purple-500 to-purple-600 hover:from-purple-600 hover:to-purple-700 rounded-2xl font-semibold shadow-2xl shadow-purple-500/40 hover:shadow-purple-500/70 transition-all"
         >
           View More Projects
           <ArrowUpRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
